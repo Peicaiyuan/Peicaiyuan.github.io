@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: #e3e3e3;
+    /* body中的字间距设置为2像素 */
+    letter-spacing: 2px;
+}
+
+h1 {
+    /* 最大标题像素设置为10像素 */
+    letter-spacing: 10px;
+    color: #992288;
+}
+
+.black {
+    letter-spacing: 10px;
+    color: #808080;
+}
+
+img {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+.tr-b {
+    font-size: 2em;
+    color: #af6969;
+}
+
+.tr-full {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #a75d8b;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+/* .td-b {
+    text-align: center;
+    font-size: 1.1em;
+} */
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    letter-spacing: 2px;
+}
+

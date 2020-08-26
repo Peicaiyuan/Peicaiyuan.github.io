@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8"/>
+<title>学生个人信息</title>
+</head>
+<body bgcolor="#E3E3E3">
+	<center>
+    <h2>个人信息</h2>
+	<hr size="2" width="300"/>
+	<form action="" method="post">
+	<table border="1" width="400" cellpadding="1" cellspacing="1">
+	<font size="4"><caption>详细信息内容</caption></font>
+	<tr>
+	<td> 用户名：</td>  
+	<td><input type="text" name="username" maxlength="10" size="20"></td>
+	</tr>
+
+	<tr>
+	<td> 密码：</td>  
+	<td><input type="password" name="userpwd"size="21"></td>
+	</tr>
+	
+	<tr>
+	<td> 性别：</td>  
+	<td><input type="radio" name="sex" value="male" checked>男 
+	    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	    <input type="radio" name="sex" value="female">女
+	</td>
+	</tr>	
+	<td> 爱吃的水果：</td> 
+	<td><input type="checkbox" name="fruit" value="apple" checked>苹果
+	    <input type="checkbox" name="fruit" value="banana">香蕉
+	    <input type="checkbox" name="fruit" value="orange">橘子
+	</td>
+	<tr>
+
+	<tr>
+	<td> 描述喜欢这些水果的原因：</td> 
+	<td><textarea rows="3" cols="25"name="reason"></textarea></td>
+	</tr>
+
+	<tr>
+	<td>专业：</td>
+	<td><select name="major" size="1"><!-- size="1"代表每次仅仅显示一个 -->
+	    <option value="computer">计算机</option>
+	    <option value="english">英语</option>
+	    <option selected value="math">数学</option>
+	    </select></td>
+	</tr>
+
+	<tr>
+	<td>课程：</td>
+	<td><select name="curriculum" size="3" multiple>
+	    <option value="struct">数据结构</option>
+	    <option value="english">大学英语</option>
+	    <option value="marxist">马克思理论与基础</option>
+	</select></td>
+	</tr>
+
+	<tr align="center">
+	<td colspan="2"><input type="submit" value="提交">
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="reset" value="重置">
+	</td>
+	</tr>
+
+	</table>
+	</form>
+	</center>
+</body>
+
+</html>
